@@ -1,1 +1,1 @@
-a magic file
+A magic file 
