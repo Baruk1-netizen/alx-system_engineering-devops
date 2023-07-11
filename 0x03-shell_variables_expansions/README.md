@@ -1,1 +1,1 @@
-This script prints the result of POWER divided by DIVIDE, followed by a new line.
+Thiis script displays the result of BREATH to the power LOVE
