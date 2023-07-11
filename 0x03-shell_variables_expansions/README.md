@@ -1,1 +1,1 @@
-THis script lists all local variables and environment variables, and functions.
+This scripts creates a new local variable.
