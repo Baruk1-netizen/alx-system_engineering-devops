@@ -1,5 +1,6 @@
 #!/bin/bash
-file /tmp/iamafile
+(echo '0	string	SCHOOL	School data file' > school.mgc) (file -i -b *)
+
 
 
 
