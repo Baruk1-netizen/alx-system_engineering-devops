@@ -70,4 +70,4 @@ Contributions are welcome! Feel free to submit pull requests or open issues if y
 
 ## Authors <a name="authors"></a>
 
-Project created by ALX and done by waltertaya.
+Project created by ALX and done by Mbaruk.
