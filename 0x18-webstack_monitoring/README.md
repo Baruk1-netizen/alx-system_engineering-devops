@@ -23,7 +23,7 @@ This project aims to implement web stack monitoring using Datadog, a monitoring 
 
 ### Instructions
 
-1. Clone the repository: `git clone https://github.com/waltertaya/alx-system_engineering-devops.git`
+1. Clone the repository: ``
 
 2. Navigate to the appropriate directory for each task and follow the instructions provided in the README files.
 
