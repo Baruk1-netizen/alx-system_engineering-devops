@@ -29,7 +29,7 @@ This project aims to implement web stack monitoring using Datadog, a monitoring 
 
 ### Author
 
-This project was created by waltertaya.
+This project was created by Mbaruk.
 
 ### Acknowledgements
 
