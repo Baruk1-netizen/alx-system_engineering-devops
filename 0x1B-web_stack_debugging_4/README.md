@@ -64,11 +64,11 @@ puppet apply 1-user_limit.pp
 ## Authors
 
 - ALX
-- @waltertaya
+- @Baruk1-netizen
 
 ---
 
 ## Repository
 
-- **GitHub Repository:** [alx-system_engineering-devops](https://github.com/waltertaya/alx-system_engineering-devops)
+- **GitHub Repository:** [alx-system_engineering-devops](https://github.com/Baruk1-netizen/alx-system_engineering-devops)
 - **Directory:** 0x1B-web_stack_debugging_4
