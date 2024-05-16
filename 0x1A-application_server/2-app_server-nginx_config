@@ -17,5 +17,5 @@ server {
         }
         root /var/www/html;
         server_name _;
-        rewrite ^/redirect_me https://github.com/waltertaya permanent;
+        rewrite ^/redirect_me https://github.com/Baruk1-netizen permanent;
 }
