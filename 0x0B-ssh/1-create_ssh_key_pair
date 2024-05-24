@@ -1,8 +1,18 @@
 #!/bin/bash
 
-# Generate RSA key pair with specified parameters
-openssl genrsa -aes256 -passout pass:betty -out school.pem 4096
+# Define key name, number of bits, and passphrase
+KEY_NAME="school"
+KEY_BITS=4096
+PASSPHRASE="betty"
 
-# Extract public key from private key
-openssl rsa -in school.pem -pubout -out school.pub.pem
+# Generate the RSA key pair with options
+ssh-keygen -t rsa -b $KEY_BITS -f "$KEY_NAME" -C "" -N "$PASSPHRASE"
 
+# Check if key generation was successful
+if [ $? -eq 0 ]; then
+  echo "RSA key pair created successfully!"
+  echo "Private key: $KEY_NAME"
+  echo "Public key: $KEY_NAME.pub"
+else
+  echo "Error creating key pair!"
+fi
