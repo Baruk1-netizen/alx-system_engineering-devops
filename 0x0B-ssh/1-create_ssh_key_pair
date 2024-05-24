@@ -1,3 +1,8 @@
-#!/usr/bin/env bash
-# Creates an RSA key pair with the passphrase betty
-ssh-keygen -f school -b 4096 -N betty
+#!/bin/bash
+
+# Generate RSA key pair with specified parameters
+openssl genrsa -aes256 -passout pass:betty -out school.pem 4096
+
+# Extract public key from private key
+openssl rsa -in school.pem -pubout -out school.pub.pem
+
