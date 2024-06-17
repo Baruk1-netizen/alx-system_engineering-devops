@@ -59,8 +59,8 @@ This project involves debugging an issue with Nginx not listening on port 80 in 
 
 ## Author
 
-- Walter
-- Sylvain Kalache
+- Baruk
+
 
 ---
 Copyright © 2024 ALX, All rights reserved.
